@@ -1,6 +1,6 @@
 <?php 
 
- $host = "manny.db.elephantsql.com (manny-01)";
+ $host = "localhost:manny.db.elephantsql.com (manny-01)";
  $user = "iyrbjpkv";
  $pass = "IFFB3unX25uJPCj9u9PojgTg7CAOexon";
  $database = "iyrbjpkv";
