@@ -21,7 +21,7 @@
 			<td>Gender</td>
 		</tr>
 			<?php
-				$db=mysqli_connect("localhost","root","","hosteldb") or die("Connecction error");
+				include('config.php');
 
 				$res=mysqli_query($db,"select * from admin");
 				while($r=mysqli_fetch_assoc($res))
