@@ -16,7 +16,7 @@ $username = "iyrbjpkv";
 $password = "IFFB3unX25uJPCj9u9PojgTg7CAOexon";
 
 // Create connection
-$db = new mysqli($servername, $username, $password);
+$db = new mysqli_connect($servername, $username, $password);
 
 
 ?>
