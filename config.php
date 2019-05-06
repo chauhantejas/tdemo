@@ -3,7 +3,7 @@
  //$user = "iyrbjpkv";
  //$pass = "IFFB3unX25uJPCj9u9PojgTg7CAOexon";
  //$dbs = "iyrbjpkv";
-  $db = mysqli_connect('manny.db.elephantsql.com (manny-01),5432','iyrbjpkv','IFFB3unX25uJPCj9u9PojgTg7CAOexon','iyrbjpkv')
+  $db = mysqli_connect('manny.db.elephantsql.com (manny-01)','iyrbjpkv','IFFB3unX25uJPCj9u9PojgTg7CAOexon','iyrbjpkv')
  or die('Error connecting to MySQL server.');
  
 
