@@ -21,11 +21,7 @@
 			<td>Gender</td>
 		</tr>
 			<?php
-				//include("config.php");
-  $db = mysql_connect('manny.db.elephantsql.com (manny-01)','iyrbjpkv','IFFB3unX25uJPCj9u9PojgTg7CAOexon','iyrbjpkv')
- or die('Error connecting to MySQL server.');
-				echo "Tejas kumar";
-				print($db);
+				include 'config.php';
   
 				$res=mysql_query($db,"select * from admin");
 				 
