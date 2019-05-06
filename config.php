@@ -1,5 +1,5 @@
 <?php 
- $host = "manny.db.elephantsql.com (manny-01)";
+ $host = "manny.db.elephantsql.com (manny-01):5432";
  $user = "iyrbjpkv";
  $pass = "IFFB3unX25uJPCj9u9PojgTg7CAOexon";
  $dbs = "iyrbjpkv";
