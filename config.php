@@ -5,9 +5,9 @@
  $dbs = "iyrbjpkv";
 
  // Open a PostgreSQL connection
- $db = mysqli_connect("host=$host dbname=$dbs user=$user password=$pass")
-   or die ("Could not connect to server\n");
+// $db = mysqli_connect("host=$host dbname=$dbs user=$user password=$pass")
+  // or die ("Could not connect to server\n");
 
-//$db=mysqli_connect($host,$user,$pass,$database) or die("database not connected");
+$db=mysql_connect($host,"root",$pass,$database) or die("database not connected");
 
 ?>
