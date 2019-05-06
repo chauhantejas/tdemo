@@ -23,7 +23,7 @@
 			<?php
 				include("config.php");
 
-				$res=pg_query($db,"select * from admin");
+				$res=mysql_query($db,"select * from admin");
 				while($r=mysqli_fetch_assoc($res))
 				{		
 			?>	
@@ -35,10 +35,6 @@
 		</tr>
 			<?php
 			}
-		
-			 $row = pg_fetch_row($res);
- 			echo $row[0] . "\n";
- 			pg_close($con);
 			?>
 	</table>
 	
