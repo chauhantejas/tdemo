@@ -23,7 +23,7 @@
 			<?php
 				include("config.php");
 
-				$res=mysql_query($db,"select * from admin");
+				$res=mysqli_query($db,"select * from admin");
 				while($r=mysqli_fetch_assoc($res))
 				{		
 			?>	
