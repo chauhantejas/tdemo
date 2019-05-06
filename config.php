@@ -1,9 +1,10 @@
 <?php 
- $host = "manny.db.elephantsql.com(manny-01)";
- $user = "iyrbjpkv";
- $pass = "IFFB3unX25uJPCj9u9PojgTg7CAOexon";
- $dbs = "iyrbjpkv";
- 
+ //$host = "manny.db.elephantsql.com(manny-01)";
+ //$user = "iyrbjpkv";
+ //$pass = "IFFB3unX25uJPCj9u9PojgTg7CAOexon";
+ //$dbs = "iyrbjpkv";
+  $db = mysqli_connect('manny.db.elephantsql.com (manny-01),5432','iyrbjpkv','IFFB3unX25uJPCj9u9PojgTg7CAOexon','iyrbjpkv')
+ or die('Error connecting to MySQL server.');
  
 
  // Open a PostgreSQL connection
@@ -16,11 +17,5 @@
 //$username = "iyrbjpkv";
 //$password = "IFFB3unX25uJPCj9u9PojgTg7CAOexon";
 // Create connection
-$db = mysql_query($host,$user,$pass);
-mysql_select_db('iyrbjpkv',$db);
-
-if (!db) {
-    die('Tejas: Could not connect: ' . mysql_error());
-}
-
+ 
 ?>
