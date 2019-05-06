@@ -22,10 +22,11 @@
 		</tr>
 			<?php
 				//include("config.php");
-				  $db = mysqli_connect('manny.db.elephantsql.com (manny-01)','iyrbjpkv','IFFB3unX25uJPCj9u9PojgTg7CAOexon','iyrbjpkv')
+  $db = mysql_connect('manny.db.elephantsql.com (manny-01)','iyrbjpkv','IFFB3unX25uJPCj9u9PojgTg7CAOexon','iyrbjpkv')
  or die('Error connecting to MySQL server.');
-				$res=mysqli_query($db,"select * from admin");
-				while($r=mysqli_fetch_assoc($res))
+				$res=mysql_query($db,"select * from admin");
+				echo $res;
+				while($r=mysql_fetch_assoc($res))
 				{		
 			?>	
 		<tr>
